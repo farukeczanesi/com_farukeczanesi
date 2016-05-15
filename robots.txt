@@ -1,0 +1,29 @@
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /cda/testing/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/
+Disallow: /nofollow/
+Disallow: /search/
+Disallow: /taxonomy/
+Disallow: /user/activate/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /user/password/
+Disallow: /user/register/
+
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=cda/testing/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/
+Disallow: /?q=nofollow/
+Disallow: /?q=search/
+Disallow: /?q=taxonomy/
+Disallow: /?q=user/activate/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
