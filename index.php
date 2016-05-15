@@ -1,6 +1,8 @@
 <?php
 
-header("Location: index.php?option=com_farukeczanesi");
+if(!isset($_GET['option'])){
+    header("Location: index.php?option=com_farukeczanesi");
+}
 
 ?>
 
